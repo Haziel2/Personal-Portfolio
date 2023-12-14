@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Personal Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+  }
+
+  body {
+    background-image: url('backgroundimg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .w3-row-padding img {
+    margin-bottom: 12px;
+  }
+
+  .w3-sidebar {
+    width: 120px;
+    background: #222;
+  }
+
+  #main {
+    margin-left: 120px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    #main {
+      margin-left: 0;
+    }
+  }
+</style>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>EXPERIENCE</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PROJECTS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">EXPERIENCE</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center" id="home" style="background-color: transparent;">
+    <h5 class="w3-subtitle">Welcome to my Personal Portfolio :)</h5>
+    <h2 class="w3-jumbo"><span class="w3-hide-small">Hey, </span>I am Haziel</h2>
+  </header>
+  
+  <div class="w3-container w3-center">
+    <img src="profilepic1.jpeg" alt="boy" class="w3-image" width="700" height="550">
+  </div>
+</div>
+
+
+
+
+
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-white w3-padding-64" id="about">
+    <h2 class="w3-text-light-white">Haziel de Oliveira</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Hello! I'm a sophomore student from Brazil, double majoring in Computer Science and Interactive Media. My coding journey is driven by a keen interest in Design and Data Science, where I find joy in both the creative and analytical aspects of these fields.
+
+      Beyond academics, I'm actively involved in Web and Front End Development, consistently honing my skills to stay current. Complementing my technical pursuits is a profound curiosity for science, guiding my exploration of the intriguing connections between technology, data science, and various scientific disciplines. It's a continuous journey of learning and problem-solving that I find truly rewarding.
+      
+        <p>
+          <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+        
+          <div class="w3-skill">
+            <img src="python.png" alt="Python Logo" class="w3-margin-right" style="width:40px;">
+            <p class="w3-wide">Python</p>
+            <div class="w3-white">
+              <div class="w3-dark-grey" style="height:28px; width:95%"></div>
+            </div>
+          </div>
+          <br>
+        
+          <div class="w3-skill">
+            <img src="css.png" alt="CSS Logo" class="w3-margin-right" style="width:40px;">
+            <p class="w3-wide">CSS</p>
+            <div class="w3-white">
+              <div class="w3-dark-grey" style="height:28px; width:95%"></div>
+            </div>
+          </div>
+          <br>
+        
+          <div class="w3-skill">
+            <img src="html.png" alt="HTML Logo" class="w3-margin-right" style="width:40px;">
+            <p class="w3-wide">HTML</p>
+            <div class="w3-white">
+              <div class="w3-dark-grey" style="height:28px; width:85%"></div>
+            </div>
+          </div>
+          <br>
+        
+          <div class="w3-skill">
+            <img src="javascript.png" alt="JavaScript Logo" class="w3-margin-right" style="width:40px;">
+            <p class="w3-wide">JavaScript</p>
+            <div class="w3-white">
+              <div class="w3-dark-grey" style="height:28px; width:80%"></div>
+            </div>
+          </div>
+        </p>
+        
+      
+    
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <a href="https://drive.google.com/file/d/1JcWiMS-KNQtCd3FVCDn_ojss51Iymghq/view?usp=drive_link" target="_blank"><i class="fa fa-download"></i> Download Resume</a>
+    </button>
+    
+  
+  <!-- Portfolio Section -->
+<div class="w3-padding-64 w3-content" id="photos" style="text-align: center;">
+  <h2 class="w3-text-light-grey">My projects</h2>
+  <hr style="width:200px; margin: 0 auto;" class="w3-opacity">
+</div>
+
+<!-- Grid for pricing tables -->
+<style>
+  .w3-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .w3-half {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-description {
+    margin-top: 10px;
+  }
+</style>
+
+
+<div class="w3-container">
+  <div class="w3-half">
+    <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+      <li class="w3-dark-grey w3-xlarge w3-padding-32">CosmoPhysics</li>
+      <li class="w3-light-grey w3-padding-24">
+        <div class="project-content">
+          <img src="cosmophysics.jpg" alt="Description of the image" style="width:70%; max-height:300px;">
+          <div class="project-description">
+            <p>I'm the founder of “CosmoPhysics”, an initiative bridging the gap between Science and society by promoting scientific literacy through social media and engaging with individuals from all backgrounds. </p>
+            <a href="https://www.instagram.com/cosmo_physics/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" target="_blank">
+              <button class="w3-button w3-white w3-padding-large w3-hover-black">Access</button>
+            </a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="w3-container">
+  <div class="w3-half">
+    <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+      <li class="w3-dark-grey w3-xlarge w3-padding-32">Feline Campus Tour</li>
+      <li class="w3-light-grey w3-padding-24">
+        <div class="project-content">
+          <img src="video.png" alt="Description of the image" style="width:70%; max-height:300px;">
+          <div class="project-description">
+            <p>The website titled "Feline Campus Tour" is designed to provide a virtual campus tour of New York University Abu Dhabi campus in a unique way. The project's distinct feature lies in the use of feline guides to lead viewers through the campus, as well as representing the diverse and dynamic campus life at NYUAD.</p>
+            <a href="https://haziel2.github.io/Feline-Campus-Tour/" target="_blank">
+              <button class="w3-button w3-white w3-padding-large w3-hover-black">Access</button>
+            </a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="w3-container">
+  <div class="w3-half">
+    <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+      <li class="w3-dark-grey w3-xlarge w3-padding-32">Beyond the Gray</li>
+      <li class="w3-light-grey w3-padding-24">
+        <div class="project-content">
+          <img src="comics.png" alt="Description of the image" style="width:70%; max-height:300px;">
+          <div class="project-description">
+            <p>The webpage project aims to create a visually immersive experience inspired by retro video games, which is evident in the background image and button designs. HTML provided the content, CSS facilitated animations and the overall design, and Java was used to manage the webpage flow. </p>
+            <a href="https://haziel2.github.io/comics_project/" target="_blank">
+              <button class="w3-button w3-white w3-padding-large w3-hover-black">Access</button>
+            </a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="w3-container">
+  <div class="w3-half">
+    <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+      <li class="w3-dark-grey w3-xlarge w3-padding-32">HorrorCast</li>
+      <li class="w3-light-grey w3-padding-24">
+        <div class="project-content">
+          <img src="horrorcast.png" alt="Description of the image" style="width:70%; max-height:300px;">
+          <div class="project-description">
+            <p>The website “HorrorCast” is designed to transport the listeners to the chilling world of supernatural events. In this specific episode, the podcast presents a spine-tingling narrative, exploring the experiences of the protagonist, Sarah. </p>
+            <a href="https://lujain-elmallah.github.io/CommLab3/index.html" target="_blank">
+              <button class="w3-button w3-white w3-padding-large w3-hover-black">Access</button>
+            </a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="w3-container">
+  <div class="w3-half">
+    <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+      <li class="w3-dark-grey w3-xlarge w3-padding-32">Behind the Counter</li>
+      <li class="w3-light-grey w3-padding-24">
+        <div class="project-content">
+          <img src="coffee.png" alt="Description of the image" style="width:70%; max-height:300px;">
+          <div class="project-description">
+            <p>The project "Behind the Counter" is designed to give the user an exclusive pass to uncover the backstage of Blacksmith, the neighborhood coffee haven. In this immersive experience, the video presents a further perspective, beyond a simple order. </p>
+            <a href="https://haziel2.github.io/Video-project/" target="_blank">
+              <button class="w3-button w3-white w3-padding-large w3-hover-black">Access</button>
+            </a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+
+
+
+
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: haziel.soares@nyu.edu</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SUBMIT
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Thank you!<a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green"></a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
